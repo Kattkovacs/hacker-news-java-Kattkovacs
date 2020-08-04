@@ -44,6 +44,7 @@ public class ApiTopServlet extends javax.servlet.http.HttpServlet {
         System.out.println(content);
         sc.close();
         con.disconnect();
+
         JsonParser parse = new JsonParser();
         JsonArray jsonArray = (JsonArray) parse.parse(content.toString());
         PageModal pageModal = new PageModal();
