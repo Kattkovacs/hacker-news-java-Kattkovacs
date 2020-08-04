@@ -44,7 +44,7 @@
                 <version>${version.jetty}</version>
                 <configuration>
                     <reload>automatic</reload>
-                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <scanIntervalSeconds>1</scanIntervalSeconds>
                 </configuration>
             </plugin>
             <plugin>
